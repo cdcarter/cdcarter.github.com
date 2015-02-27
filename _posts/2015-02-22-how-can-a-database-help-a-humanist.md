@@ -20,11 +20,19 @@ It's the plight of any small (but mighty!) not-for-profit organization. We work 
 
 Already, you're feeling this lack of capacity, and I'm asking you to dedicate even more of your resources to non-program related projects? Am I crazy? 
 
-Having a big picture view of your constituencies and their engagement, as you will learn, is an invaluable resource. But today I want to focus on one benefit.
+Having a big picture view of your constituencies and their engagement, as you will learn, is an invaluable resource. But today I want to focus on one benefit and how Salesforce can help you. 
 
 ### A culture of appreciation.
 
-Almost all not-for-profit organizations operate as public charities. As a public charity
+You're a public charity. You take credit card donations, you get checks in the mail, and all sorts of other contributed revenues. Your development coordinator does a fantastic job thanking your donors for every gift they make.
+
+You rely on volunteers to execute some of your most successful programs. Your volunteer manager spends a few hours every week sending out emails to remind people of their upcoming shifts and to thank them for their work last month.
+
+You even have a drip marketing campaign set up to re-engage your program attendees and to thank them for coming out on a Wednesday night to take a class.
+
+You're doing everything right. Your organization has a culture of appreciation. Each department thanks their constituencies with an alarming efficiency and everybody goes on with their day.
+
+It's okay if you aren't at that point in your org yet. Either way, some well integrated CRM 
 
 
 [1]: http://rainiervalleycorps.org/ 
