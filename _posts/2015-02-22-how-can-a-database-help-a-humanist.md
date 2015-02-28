@@ -13,7 +13,7 @@ It's a not-uncommon question on the [Power of Us Hub][1]. In the NPSP, how can I
 
 > One approach is to create a new custom currency field (Second to Last Gift Amount) and use a workflow rule to populate the prior value every time the Last Gift Amount changes. The workflow can be based on every time a record is created or edited and the formula ISCHANGED(Last Gift Amount). The field update populates your new field with the formula PRIORVALUE(Last Gift Amount). This should work well going forward but the shortcoming is that this won't kick in on contacts until new gifts are received from them and the current Last Gift Amount changes. So, if you wanted to get all the records up to speed now you'd need to do some data work on the existing opportunities to determine the right dates and mass update that field.
 
-The shortcoming he points out is valid, but ther'es a slightly more dangerous one. Thomas Taylor from [roundCorner Inc.][3] fills us in:
+The shortcoming he points out is valid, but there's a slightly more dangerous one. Thomas Taylor from [roundCorner Inc.][3] fills us in:
 
 > Scott's solution is very good and simple, but I think it's important to understand an important limitation. Note that it is not actually finding and populating the field with the value of the next-to-most-recent gift, it is merely taking the previous value of Last Gift Amount and copying it over.
 > So, if you end up changing the Amount of the Opportunity represented by that Last Gift Amount, to correct a data entry error, for instance, then your second-to-last gift amount will then have the incorrect amount from the initial entry in it.
@@ -28,21 +28,25 @@ Actually, we can solve this problem without a single line of Apex. I'll say from
 
 Our first step is to qualify our problem a little bit more, using some of the terms we're going to see in the Flow designer. We want to set a field on `Account` called `Second_to_last_gift__c` that contains the `Amount` field from the 2nd to latest `Opportunity` with a `Stage` that has the Closed/Won property. Hop into a Sandbox and create that Currency field on `Account` to save the value in. Make sure to add it to your page layouts too. 
 
-### Step Two: Layout your flow
+### Step Two: Layout your flow 
 
 We're going to use the Cloud Flow Designer to build a visual workflow. Here are the steps we'll need it to accomplish:
 
 1. Set up an `OpportunityId` variable. This flow is going to be triggered by a Process every time a donation is created or edited, so we'll need an input-only variable to stash the ID of the `Opportunity` that was saved.
 2. Save `AccountId` from the Opportunity into a variable.
 3. Find _all_ the Closed/Won donations for that `Account` and stash them in an SObject Collection Variable, sorted by `CloseDate` (descending).
+![Imgur](http://i.imgur.com/foluifQ.png)
 4. Create an index variable with the value of `0`.
 5. Loop through our SObject Collection (which entails creating a loop variable, and select an "ascending" loop)
   1. If the index variable is not equal to `1`:
     * add `1` to the index variable, and return to the loop.
   2. If the index variable is equal to `1`:
-    * Update the `Account` `Second_to_last_gift__c` with the `Amount` of the `Opporunity` from the collection that we are currently on.
+    * Update the `Account` `Second_to_last_gift__c` with the `Amount` of the `Opportunity` from the collection that we are currently on.
 6. Save the flow as an Autolaunched Flow.
 7. Activate the flow!
+
+Here's the flow in full.
+![Imgur](http://i.imgur.com/GtnokVe.png)
 
 ### Step Three: Build a process
 
@@ -50,8 +54,10 @@ Now that we have our flow to do a bulk of the work, let's set up a Process to la
 
 1. Create a new Process on the `Opportunity` object, to be triggered whenever it is saved or edited.
 2. Set the first Criteria to "No criteria—just execute the actions!" I named mine "No Criteria" so it would be easy to remember what is happening. 
-3. Create an action that launches your Flow! Process Builder will then give you the chance to set any flow vairables. Set your `OpportunityId` input-only variable to `[Opportunity].Id`.
+3. Create an action that launches your Flow! Process Builder will then give you the chance to set any flow variables. Set your `OpportunityId` input-only variable to `[Opportunity].Id`.
 4. Activate your process!
+
+![Imgur](http://i.imgur.com/es47mVn.png) 
 
 ### Step Four: Test it out.
 
