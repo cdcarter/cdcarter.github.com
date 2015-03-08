@@ -7,10 +7,10 @@ tags: [process-builder]
 ---
 {% include JB/setup %}
 
-## Our Challenge: Seperate create and save Page Layouts?
+## Our Challenge: Separate create and save Page Layouts?
 > How can my "new" record layout be different from my "edit" record layout?
 
-You're clicking around Setup, trying to find a way to let your "new" record layout look different from when you're editing a record. Maybe on a new record you only want to capture key data, or the requirements for a new record are just more stringent than some historical data. You're preety familiar with SFDC, so you know that Cases allow you to have a new layout for closed cases. How can you do something like that on your own instance?
+You're clicking around Setup, trying to find a way to let your "new"p record layout look different from when you're editing a record. Maybe on a new record you only want to capture key data, or the requirements for a new record are just more stringent than some historical data. You're pretty familiar with SFDC, so you know that Cases allow you to have a new layout for closed cases. How can you do something like that on your own instance?
 
 Well, it's prettily easily done with VisualForce, SFDC's own markup language, but VF has a  learning curve. Plus, then you'd have to maintain one page layout in the standard Setup pages, and one layout in VisualForce. Even if you are a VF-hero... this makes your maintenance even harder.
 
@@ -18,7 +18,7 @@ Thankfully, you can solve it with a little bit of deductive reasoning and the ne
 
 ### Step one: define our problem
 
-In my case, we're working with [a slightly non-standard instance of Salesforce][http://patronmanager.com], where each `Opportunity` represents one (and only one) payment. If you take in multiple payments, they each get their own `Opportunity`, and in order to have multiple payments all link to one pledge (pretty standard in many organizations), you need to create a parent `Pledge` object. if you're on NPSP, this specific problem won't bite you, but any situation where an online donation creates a new `Opportunity` will create a need here.
+In my case, we're working with [a slightly non-standard instance of Salesforce][http://patronmanager.com], where each `Opportunity` represents one (and only one) payment. If you take in multiple payments, they each get their own `Opportunity`, and in order to have multiple payments all link to one pledge (pretty standard in many organizations), you need to create a parent `Pledge` object. If you're on NPSP, this specific problem won't bite you, but any situation where an online donation creates a new `Opportunity` will create a need here.
 
 So, we have `Pledge__c`, and we've added an additional relationship, `Opportunity` has a lookup to `Pledge`. When we create a new payment (`Opportunity`) by hand, we want it to automatically copy over many fields that are stored on the pledge (Type, Primary Campaign, Fund, Fiscal Year Applied, etc...). 
 
@@ -26,7 +26,7 @@ In fact, when we create a new `Opportunity` from the Pledge's record page, we wa
 
 ### Step two: create a new `RecordType` and Page Layout.
 
-Let's create a new `RecordType` called `PledgePaymentINTERNAL`. We're putting "internal" in all caps there, so that we can quickly visually see when any record is left in that type.  Then, create a new Page Layout called "New Pladge Payment" that only has the fields we need: Name, Amount, Close Date, Stage, Probability, Account, and Pledge). We will assign this Page Layout to the `RecordType` we created earlier for all profiles.
+Let's create a new `RecordType` called `PledgePaymentINTERNAL`. We're putting "internal" in all caps there, so that we can quickly visually see when any record is left in that type.  Then, create a new Page Layout called "New Pledge Payment" that only has the fields we need: Name, Amount, Close Date, Stage, Probability, Account, and Pledge). We will assign this Page Layout to the `RecordType` we created earlier for all profiles.
 
 ### Step three: create a custom button on `Pledge`
 
@@ -63,7 +63,7 @@ As always, you want to test this! Try a few donations, and make sure you've set 
 
 When it is, a new record will show only the fields you want, and once you hit save, you'll see all your normal fields.
 
-The big caveat here is that you're overloading `RecordTypes` in a way they aren't fully intended to be used. Make sure you still set all your appropriate sales processes and picklist values for both `RecordTypes` and regularily check that no data is persisting in the INTENRAL type.    
+The big caveat here is that you're overloading `RecordTypes` in a way they aren't fully intended to be used. Make sure you still set all your appropriate sales processes and picklist values for both `RecordTypes` and regularly check that no data is persisting in the INTENRAL type.    
 
 
 
