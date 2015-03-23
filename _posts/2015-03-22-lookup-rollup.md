@@ -41,4 +41,4 @@ Now, instead of worrying about that trigger (and being certain that all your tes
 
 <img src="https://andrewfawcett.files.wordpress.com/2015/02/processbuilder2.png?w=820&h=559" width="600"/>
 
-It's that easy. Within minutes, you can rollup any field to any object. An admin's life made that much simpler. Thanks Andy!
+It's that easy. Within minutes, you can rollup any field to any object. An admin's life made that much simpler. I spent today buying new socks and towels (think about it, what doesn't make someone feel cleaner and happier than fresh socks and towels) and then I sat down to work and was greeted by a VERY pleasant experience that had immediate (and desired) results. Thanks Andy!
