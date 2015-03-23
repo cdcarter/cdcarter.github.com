@@ -23,7 +23,7 @@ So, without writing custom code, we look to useful tools on the AppExchange. In 
 
 # [Declarative Lookup Rollup Summary Tool](https://github.com/afawcett/declarative-lookup-rollup-summaries)
 
-[Andrew Fawcett](https://github.com/afawcett) of [Andy in the Cloud](http://andyinthecloud.com/) fame wrote together a brilliant tool. He's written some crazy flexible code that let's you define rollup summaries in a point-and-click fashion through the standard Salesforce UI.
+[Andrew Fawcett](https://github.com/afawcett) of [Andy in the Cloud](http://andyinthecloud.com/) fame wrote together a brilliant tool. He's written some crazy flexible code that lets you define rollup summaries in a point-and-click fashion through the standard Salesforce UI.
 
 The UI looks like this:
 
