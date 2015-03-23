@@ -31,11 +31,11 @@ The UI looks like this:
 
 And you can rollup any field on the "many" end of a lookup relationship to your object on the "one" end. You can specify criteria to only rollup certain records or `RecordTypes`.
 
-Up until recently, this tool relied on a litle bit of voodoo known as the Metadata API to actually deploy an auto-generated trigger to your Production environment. If you know enough to be dangerous about Apex, you know that you can't create new Apex in a production org, you have to make it in a Sandbox. This tool used the API to "circumvent" this (though in a totally allowed way!)
+Up until recently, this tool relied on a little bit of voodoo known as the Metadata API to actually deploy an auto-generated trigger to your Production environment. If you know enough to be dangerous about Apex, you know that you can't create new Apex in a production org, you have to make it in a Sandbox. This tool used the API to "circumvent" this (though in a totally allowed way!)
 
 But with the magical Spring '15, it got easier. 
 
-## My best friend, Process Builder, comes to the resuce.
+## My best friend, Process Builder, comes to the rescue.
 
 Now, instead of worrying about that trigger (and being certain that all your tests, even the ones you didn't write, pass), you can just define your rollup to be triggered by the Lighting Process Builder
 
