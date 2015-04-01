@@ -13,7 +13,7 @@ We then go through each ticket order and copy their information over to their Co
 
 This used to be a manual process, but Terry Cole on the PowerOfUs HUB gave me the idea that Flows are great for processing demographic data. With a little bit of work, here we are!
 
-<img src="http://i.imgur.com/yDEDF1x.jpg" width=100%/>
+<img src="http://i.imgur.com/yDEDF1x.jpg" width=100%></img>
 
 This little wizard steps through any unprocessed records and let's a member of the team categorize their data.
 
