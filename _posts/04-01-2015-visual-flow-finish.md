@@ -13,7 +13,7 @@ We then go through each ticket order and copy their information over to their Co
 
 This used to be a manual process, but Terry Cole on the PowerOfUs HUB gave me the idea that Flows are great for processing demographic data. With a little bit of work, here we are!
 
-<img src="http://i.imgur.com/yDEDF1x.jpg" width=100%></img>
+<img src="http://i.imgur.com/yDEDF1x.jpg" width="100%" alt="Flow Interview"/>
 
 This little wizard steps through any unprocessed records and let's a member of the team categorize their data.
 
@@ -30,4 +30,4 @@ It also turns out, there's a simple fix, and that fix is...*VisualForce*. But ne
   </apex:page>
 ```
 
-Just put the unique name of your flow under "name" and name this page something memorable. Adjust your custom button to hit up this new VF page, and *BLAMMO*, when your user finishes their flow, they actually go where you want them to.
+Just put the unique name of your flow under "name" and name this page something memorable. Adjust your custom button to hit up this new VF page, and *BLAMMO*, when your user finishes their flow, they actually go where you want them to. `finishLocation` can be set to any URL or Action you need.
