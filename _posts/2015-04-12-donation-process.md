@@ -36,9 +36,10 @@ Though they can't access the opportunity object themselves, you can now use Rake
 
 ## Step four...five..six: Deeper integrations
 Now it's great that you have a team member processing spreadsheet updates every day and tracking the stages of your asks, but why should they be doing a robot's job? There are a few different deeper integrations we can engage in here:
-1) Have Salesforce talk to the spreadsheet. With a qualified Apex developer, it's not too hard to connect your database to the spreadsheet to keep everything updated live.
-2) Have the spreadsheet talk to Salesforce. If you know and love Javascript but not Apex, you can use the opposite method and use Google Sheets Script to send updated data right to Salesforce.
-3) Listen to Chatter? This is a TRICKY one, but you could even use a Flow/Process Builder pairing to update an opportunity based on posts in a Chatter feed that your users DO have access to. More on this next week ;)
+
+1. Have Salesforce talk to the spreadsheet. With a qualified Apex developer, it's not too hard to connect your database to the spreadsheet to keep everything updated live.
+2. Have the spreadsheet talk to Salesforce. If you know and love Javascript but not Apex, you can use the opposite method and use Google Sheets Script to send updated data right to Salesforce.
+3. Listen to Chatter? This is a TRICKY one, but you could even use a Flow/Process Builder pairing to update an opportunity based on posts in a Chatter feed that your users DO have access to. More on this next week ;)
 
 ## What else?
 
