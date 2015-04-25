@@ -14,15 +14,19 @@ Nothing feels worse than setting those packages to be on sale, and the sidebar l
 Here's a quick trick I shared with the Seattle PatronManager User Group. If you put your events on-sale and active, but mark the allocations as private, you can add an access code to see what it'll look like on your ticketins site!
 
 Here's a show we have set as private:
+
 <img src="http://i.imgur.com/Y4yjbtz.png" width="70%"/>
 
 When you go to the ticketing link, nothing will show up:
+
 <img src="http://i.imgur.com/2xaIWZu.png" width="70%"/>
 
 When you go to the access code link, there are your events ready to be tested out just by you!
+
 <img src="http://i.imgur.com/okZxOqW.png" width="70%"/>
 
 If you wanna get real pro,  add that access code link to your custom links and you can get there in seconds.
+
 <img src="http://i.imgur.com/LG9NroK.png"/>
 
 This way, you can have some knowledge that your tickets will look the way you expect when you go on sale!
