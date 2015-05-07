@@ -7,8 +7,6 @@ tags: [reporting]
 ---
 {% include JB/setup %}
 
-#Filter Logic on Reports
-
 I spent the first YEAR of my time on Salesforce without knowing about the Filter Logic feature on reports. I passed my Certified Administrator and Developer exams without knowing about the Filter Logic feature on reports. I built MANY an unnecessary formula checkbox field because I DIDN'T KNOW ABOUT THE FILTER LOGIC FEATURE ON REPORTS
 
 ## Account Custom Field: New, Increased, or Recovered? ~ salesforce.com - Enterprise Edition
