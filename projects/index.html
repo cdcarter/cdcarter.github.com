@@ -4,4 +4,7 @@ title: "Projects"
 description: ""
 ---
 {% include JB/setup %}
-{% include projects.md %}
+
+
+{% capture projects %}{% include projects.md %}{% endcapture %}
+{{ projects  | markdownify }}
