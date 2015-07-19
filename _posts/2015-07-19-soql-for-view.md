@@ -15,7 +15,7 @@ I have a pot of black beans on, which is a LONG process at low temperature. I us
 
 But I wasn't just chopping potatoes today, I was also thinking about Salesforce, thinking about SOQL. [Kieren Jameson](http://womencodeheroes.com/), who I had the total honor of being recognized alongside for [July Hub Heroes](http://www.salesforcefoundation.org/hub-heroes-july-2015/), wrote an absolutely _stunning_ introduction to SOQL a few months ago called [Cooking with Code](http://womencodeheroes.com/2015/04/cooking-with-code-a-sweet-intro-to-soql-part-one/) and I highly recommend it.
 
-As I was doing my own cooking and coding, I remembered a rarely mentioned but super great feature of SOQL that I wish more people would talk about, so I'm going to share it with you. 
+As I was doing my own cooking and coding, I remembered a rarely mentioned but super great feature of SOQL that I wish more people would talk about, so I'm going to share it with you. I can't make kitchen metaphors as well as Kieren, nor is this post super beginner friendly, but I was certainly inspired.
 
 # Recent Items?
 
