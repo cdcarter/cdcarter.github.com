@@ -13,7 +13,7 @@ I have a pot of black beans on, which is a LONG process at low temperature. I us
 
 ![Beans!](http://www.seriouseats.com/recipes/assets_c/2014/08/20140827-black-beans-vicky-wasik-4-thumb-625xauto-410002.jpg)
 
-But I wasn't just chopping potatoes today, I was also thinking about Salesforce, thinking about SOQL. [Kieren Jameson](http://womencodeheroes.com/), who I had the absolutely honor of being recognized alongside for [July Hub Heroes](http://www.salesforcefoundation.org/hub-heroes-july-2015/), wrote an absolutely _stunning_ introduction to SOQL a few months ago called [Cooking with Code](http://womencodeheroes.com/2015/04/cooking-with-code-a-sweet-intro-to-soql-part-one/) and I highly recommend it.
+But I wasn't just chopping potatoes today, I was also thinking about Salesforce, thinking about SOQL. [Kieren Jameson](http://womencodeheroes.com/), who I had the total honor of being recognized alongside for [July Hub Heroes](http://www.salesforcefoundation.org/hub-heroes-july-2015/), wrote an absolutely _stunning_ introduction to SOQL a few months ago called [Cooking with Code](http://womencodeheroes.com/2015/04/cooking-with-code-a-sweet-intro-to-soql-part-one/) and I highly recommend it.
 
 As I was doing my own cooking and coding, I remembered a rarely mentioned but super great feature of SOQL that I wish more people would talk about, so I'm going to share it with you. 
 
@@ -33,7 +33,7 @@ If your object has a Tab created with the Tab wizard, and you're using the stand
 
 But what about when you are using a custom controller? Deep in the throes of custom UI, or just building a lightning component (we'll get a standard lightning controller someday, I'm sure of it!) you have resorted to a custom controller and now your object isn't showing up in the sidebar anymore. You can try it yourself:
 
-### ContactViewer.vfp
+#### ContactViewer.vfp
 
 	<apex:page Controller="ContactViewerController">
     	<h1>
@@ -41,7 +41,7 @@ But what about when you are using a custom controller? Deep in the throes of cus
     	</h1>
 	</apex:page>
 
-### ContactViewerController.apxc
+#### ContactViewerController.apxc
 
 	public class ContactViewerController {
 	    public Contact c {get;set;}
@@ -61,7 +61,7 @@ That's okay.
 
 Let's make a slight change to our controller. After the WHERE clause in our query, let's add `FOR VIEW`, like this:
 
-### ContactViewerController.apxc
+#### ContactViewerController.apxc
 
 	public class ContactViewerController {
 	    public Contact c {get;set;}
