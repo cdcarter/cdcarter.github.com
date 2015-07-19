@@ -7,9 +7,9 @@ tags: [soql, cooking]
 ---
 {% include JB/setup %}
 
-I don't eat, sleep, and breathe Salesforce. In fact, I'd much rather be cooking than coding most of the time, problem is, I'm not very good at it. I spent a good portion of today practicing my knife skills, watching yooutube videos and decimating a bag of potatoes. 
+I don't eat, sleep, and breathe Salesforce. In fact, I'd much rather be cooking than coding most of the time, problem is, I'm kind of obsessive about it. I spent a good portion of today practicing my knife skills, watching youtube videos and decimating a bag of potatoes. 
 
-I have a pot of black beans on, which is a LONG process at low temperature. I use [this recipe](http://www.seriouseats.com/recipes/2014/09/the-lazy-cooks-black-beans-easy-recipe.html) from Serious Eats, because it's easy, you don't have to soak the beans over night, and it gives me a bunch of time to try other things. Like chopping potatoes.
+I have a pot of black beans on, which is a LONG process at low temperature. I use [this recipe](http://www.seriouseats.com/recipes/2014/09/the-lazy-cooks-black-beans-easy-recipe.html) from Serious Eats, because it's easy, you don't have to soak the beans over night, and it gives me a bunch of time to try other things. Like chopping potatoes. Okay, so I'm only obsessive about some parts. The chopping parts.
 
 ![Beans!](http://www.seriouseats.com/recipes/assets_c/2014/08/20140827-black-beans-vicky-wasik-4-thumb-625xauto-410002.jpg)
 
