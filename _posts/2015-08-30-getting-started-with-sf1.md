@@ -26,7 +26,7 @@ Here, our default has the Contact name twice in the Compact Layout, and then ano
 
 ![][1]
 
-[1]: assets/images/getting-started-with-salesforce1/a-normal-contact.png
+[1]: /assets/images/getting-started-with-salesforce1/a-normal-contact.png
 
 ## A Better Compact Layout
 
@@ -38,7 +38,7 @@ The easiest place to start is with a better Compact Layout. You can pick three f
 
 ![][2]
 
-[2]: assets/images/getting-started-with-salesforce1/a-better-compact-layout.png
+[2]: /assets/images/getting-started-with-salesforce1/a-better-compact-layout.png
 
 ### Compact Layout Setup
 
@@ -46,7 +46,7 @@ To set this up, we're going to have to go back to our desktop computer and get i
 
 ![][3]
 
-[3]: assets/images/getting-started-with-salesforce1/compact-layout-setup.png
+[3]: /assets/images/getting-started-with-salesforce1/compact-layout-setup.png
 
 ### Build a Compact Layout
 
@@ -56,7 +56,7 @@ In this case, "This FY" is a formula field to display their annual giving nicely
 
 ![][4]
 
-[4]: assets/images/getting-started-with-salesforce1/build-a-compact-layout.png
+[4]: /assets/images/getting-started-with-salesforce1/build-a-compact-layout.png
 
 ### Compact Layout Detail
 
@@ -64,7 +64,7 @@ Once you hit save, you're going to need to assign the Compact Layout, otherwise 
 
 ![][5]
 
-[5]: assets/images/getting-started-with-salesforce1/compact-layout-detail.png
+[5]: /assets/images/getting-started-with-salesforce1/compact-layout-detail.png
 
 ### Assign the Layout
 
@@ -72,7 +72,7 @@ Here, we just reassign the layout for "Patron Contact" type records. You can set
 
 ![][6]
 
-[6]: assets/images/getting-started-with-salesforce1/assign-the-layout.png
+[6]: /assets/images/getting-started-with-salesforce1/assign-the-layout.png
 
 ### Now that's better...
 
@@ -82,7 +82,7 @@ Look through setup and you'll notice you can't find a section for "detail tab la
 
 ![][7]
 
-[7]: assets/images/getting-started-with-salesforce1/now-that-s-better.png
+[7]: /assets/images/getting-started-with-salesforce1/now-that-s-better.png
 
 ## A Better Page Layout - Mobile
 
@@ -90,7 +90,7 @@ Here, we've adjusted the page layout to contain more key information up at the t
 
 ![][8]
 
-[8]: assets/images/getting-started-with-salesforce1/a-better-page-layout---mobile.png
+[8]: /assets/images/getting-started-with-salesforce1/a-better-page-layout---mobile.png
 
 ### A Better Page Layout - Desktop
 
@@ -98,7 +98,7 @@ This DOES involve changing the layout on desktop as well! Plan these changes str
 
 ![][9]
 
-[9]: assets/images/getting-started-with-salesforce1/a-better-page-layout---desktop.png
+[9]: /assets/images/getting-started-with-salesforce1/a-better-page-layout---desktop.png
 
 ### Page Layout Follows the Tab Order
 
@@ -106,7 +106,7 @@ It's important to note that the way fields will display on mobile follows the "t
 
 ![][10]
 
-[10]: assets/images/getting-started-with-salesforce1/page-layout-follows-the-tab-order.png
+[10]: /assets/images/getting-started-with-salesforce1/page-layout-follows-the-tab-order.png
 
 ## Action Bar
 
@@ -114,7 +114,7 @@ You've probable noticed that weird bar of icons at the bottom of the page. This 
 
 ![][11]
 
-[11]: assets/images/getting-started-with-salesforce1/action-bar.png
+[11]: /assets/images/getting-started-with-salesforce1/action-bar.png
 
 ### Actions To Take
 
@@ -124,7 +124,7 @@ One great thing about the mobile app is that when you @-mention someone in a Cha
 
 ![][12]
 
-[12]: assets/images/getting-started-with-salesforce1/actions-to-take.png
+[12]: /assets/images/getting-started-with-salesforce1/actions-to-take.png
 
 ### Call Action
 
@@ -132,7 +132,7 @@ A favorite is the call action, which when you tap it, will give you the option t
 
 ![][13]
 
-[13]: assets/images/getting-started-with-salesforce1/call-action.png
+[13]: /assets/images/getting-started-with-salesforce1/call-action.png
 
 ## A Great Page Layout - Mobile
 
@@ -140,7 +140,7 @@ If there are actions for "Call" and "Email" right at the bottom of the page in t
 
 ![][14]
 
-[14]: assets/images/getting-started-with-salesforce1/a-great-page-layout---mobile.png
+[14]: /assets/images/getting-started-with-salesforce1/a-great-page-layout---mobile.png
 
 ### A Great Page Layout - Desktop
 
@@ -148,7 +148,7 @@ This does make your desktop layout a little bit stranger, but it's still pretty 
 
 ![][15]
 
-[15]: assets/images/getting-started-with-salesforce1/a-great-page-layout---desktop.png
+[15]: /assets/images/getting-started-with-salesforce1/a-great-page-layout---desktop.png
 
 ## Customize Your Actions
 
@@ -156,7 +156,7 @@ Now that you're seeing the information you want, it's time to get a little bit m
 
 ![][16]
 
-[16]: assets/images/getting-started-with-salesforce1/customize-your-actions.png
+[16]: /assets/images/getting-started-with-salesforce1/customize-your-actions.png
 
 ### Hit the Override
 
@@ -164,7 +164,7 @@ Hit that link, and all of a sudden the action bar section is filled with the act
 
 ![][17]
 
-[17]: assets/images/getting-started-with-salesforce1/hit-the-override.png
+[17]: /assets/images/getting-started-with-salesforce1/hit-the-override.png
 
 ### Create a New Action
 
@@ -172,7 +172,7 @@ You can do a lot more than just those standard actions though! Navigate to the "
 
 ![][18]
 
-[18]: assets/images/getting-started-with-salesforce1/create-a-new-action.png
+[18]: /assets/images/getting-started-with-salesforce1/create-a-new-action.png
 
 ### Give Your Action Some Basics
 
@@ -180,7 +180,7 @@ Once you hit "New", you'll start setting some details about the action. The targ
 
 ![][19]
 
-[19]: assets/images/getting-started-with-salesforce1/give-your-action-some-basics.png
+[19]: /assets/images/getting-started-with-salesforce1/give-your-action-some-basics.png
 
 ### Set a Layout
 
@@ -188,7 +188,7 @@ Once you hit save, you'll have to set a layout. I removed all non-important fiel
 
 ![][20]
 
-[20]: assets/images/getting-started-with-salesforce1/set-a-layout.png
+[20]: /assets/images/getting-started-with-salesforce1/set-a-layout.png
 
 ### Set Predefined Field Values
 
@@ -196,7 +196,7 @@ After you set a layout, you get to set predefined fields. If you've built a cust
 
 ![][21]
 
-[21]: assets/images/getting-started-with-salesforce1/set-predefined-field-values.png
+[21]: /assets/images/getting-started-with-salesforce1/set-predefined-field-values.png
 
 ### Add A New Action
 
@@ -204,13 +204,13 @@ Once it is saved, you can go back to your Contact Page Layout and add it to the 
 
 ![][22]
 
-[22]: assets/images/getting-started-with-salesforce1/add-a-new-action.png
+[22]: /assets/images/getting-started-with-salesforce1/add-a-new-action.png
 
 ### See it in Action
 
 ![][23]
 
-[23]: assets/images/getting-started-with-salesforce1/see-it-in-action.png
+[23]: /assets/images/getting-started-with-salesforce1/see-it-in-action.png
 
 ### Check it out!
 
@@ -218,7 +218,7 @@ When you tap it, or access it through the "..." menu, it becomes very quick to a
 
 ![][24]
 
-[24]: assets/images/getting-started-with-salesforce1/check-it-out-.png
+[24]: /assets/images/getting-started-with-salesforce1/check-it-out-.png
 
 ### Follow Up Action
 
@@ -230,7 +230,7 @@ It's very easy to change what an Action does, so make sure to build ones that ar
 
 ![][25]
 
-[25]: assets/images/getting-started-with-salesforce1/follow-up-action.png
+[25]: /assets/images/getting-started-with-salesforce1/follow-up-action.png
 
 ## Wrap-Up
 
@@ -242,7 +242,7 @@ To find out more about what you can do with Salesforce1, I recommend these two [
 
 ![][26]
 
-[26]: assets/images/getting-started-with-salesforce1/wrap-up.png
+[26]: /assets/images/getting-started-with-salesforce1/wrap-up.png
 
 ### What's Lightning?
 
