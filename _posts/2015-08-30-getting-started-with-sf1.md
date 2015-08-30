@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Started with Salesforce1 for Non-Profits"
-description: "Compact Page Layouts and Actions"
+description: "Page Layouts and Actions"
 category: admin
 tags: [patronmanager,mobile,adoption]
 ---
@@ -9,9 +9,9 @@ tags: [patronmanager,mobile,adoption]
 
 *This blog post was written at the conclusion of the 2015 PatronManager Community Meeting, as a follow up to a presentation I did with Caroline Renard about using the Salesforce1 mobile app. Nothing here is PatronManager specific.*
 
-So you want to get started with the mobile app. Your executive director downloaded it to his phone and declared it useless. You know how to find contacts in it...but you don't actually do it. Let's dig in and talk about some techniques and things you need to know in order to make Salesforce1 useful to your organization.
+So you want to get started with the mobile app. Your executive director downloaded it to his phone and declared it useless. You know how to find contacts in it...but you don't actually do it. Let's dig in and talk about some techniques and things you need to know in order to make Salesforce1 useful to your organization and to drive user adoption.
 
-First, we'll dig in to Page Layouts.
+First, we'll dig in to Page Layouts, and making sure you can see the most important things about a Contact right away. Then, we'll discuss Actions, and what you can do with a Contact.
 
 ## A Normal Contact
 
@@ -22,7 +22,7 @@ The Salesforce1 Contact Record is split into two sections:
 1. Compact Layout
 1. Details Tab
 
-Here, our default has the Contact name twice in the Compact Layout, and then another FOUR TIMES in the Details Tab. Now, remembering someone's name can be difficult but this is just overkill.
+Here, our default has the Contact name twice in the Compact Layout, and then another FOUR TIMES in the Details Tab. Now, remembering someone's name can be difficult but this is just overkill. No wonder people aren't using this dang app!
 
 ![][1]
 
@@ -34,7 +34,7 @@ The easiest place to start is with a better Compact Layout. You can pick three f
 
 1. birthdate (so you know what cultural references are safe to make when talking to them)
 1. what they donated so far this year (so you can target how much more to ask for)
-1. and their membership type (because badges look great in Compact Layouts).
+1. and their membership type (because badges look great in Compact Layouts)
 
 ![][2]
 
@@ -50,7 +50,7 @@ To set this up, we're going to have to go back to our desktop computer and get i
 
 ### Build a Compact Layout
 
-Once you're there, you'll notice there is just a system default. We want to create a new compact layout for our Patron Contacts. Just hit new, give it a name, and start dragging fields over. You'll notice you can add more than just 3 fields after the name. Only the first three will show up in the mobile app.
+Once you're there, you'll notice there is just a system default. We want to create a new compact layout for our Patron Contacts. Just hit new, give it a name, and start dragging fields over. You'll notice you can add more than just 3 fields after the name. Only the first three will show up in the mobile app. Compact Layouts are used in related lists too, where more than three fields can show, but on the top of the record page? Just three.
 
 In this case, "This FY" is a formula field to display their annual giving nicely, and "Member Type" is a formula that shows the right badge for a contact. If you're a PatronManager client, you can reach out to your client administrator to create these badges. You can also read about [how to do it yourself in this article](https://powerofus.force.com/articles/Resource/Adding-Badges-to-Contact-Records) from Caroline Renard.
 
@@ -234,7 +234,7 @@ It's very easy to change what an Action does, so make sure to build ones that ar
 
 ## Wrap-Up
 
-With all this done, you've made a huge leap forward in making Salesforce1 useful for your organization. By using it to manage your contacts, your entire CRM becomes your mobile address book. It also makes it much easier for your ED to start entering details of conversations into the system. This will allow your team to all be on the same page about how a patron is being communicated.
+With all this done you've made a huge leap forward in making Salesforce1 useful for your organization. By using it to manage your contacts, your entire CRM becomes your mobile address book. It also makes it much easier for your ED to start entering details of conversations into the system. This will allow your team to all be on the same page about how a patron is being communicated.
 
 But don't stop there! Once you've got contacts looking beautiful, it's time to start changing page layouts and compact layouts for Accounts, Donations, and more! 
 
