@@ -13,6 +13,7 @@ While I'm working on some really (I think) cool posts about documentation and de
 
 ## PatronManager Community Meeting
 In Late August, I had the pleasure of flying out to NYC to attend the PatronManager Community Meeting. For those dear readers unfamiliar with it, [PatronManager](http://patrontechnology.com) is a full featured ticketing and fundraising system built on top of Salesforce. PatMan is how I got my start on the platform and their staff encouraged and taught me and mentored me in untold ways. It was amazing to meet so many of the people I'd been emailing with and tweeting at for months.
+
 ### Building a Lightning Page
 
 ![Early Morning Consulting](https://pbs.twimg.com/media/CNg14VPW8AAxZ_L.jpg "Building the App")
