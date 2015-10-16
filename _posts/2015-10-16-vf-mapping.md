@@ -46,6 +46,7 @@ Here's the code for the page:
                               position="{!Venue__c.Street__c},{!Venue__c.City__c},{!Venue__c.State__c}"/>
         </apex:map>
     </apex:page>
+
 7 lines, and pretty straightforward at that. You may need to make a few changes. If your custom object isn't API named `Venue__c`, you'll need to change every time `Venue__c` is in that code to the API name of your object (usually just `Object_Name__c`). Similarly, if your address fields aren't just `Street__c`, `City__c`, and `State__c` you'll need to update those references too.
 
 Then, hit save! You shouldn't have any errors (but if you do, ask a question in the Hub!)
@@ -77,6 +78,7 @@ It even looks great in the Lightning Experience, right out of the box.
 Back in the Hub, Joe tried out my solution. We worked on the code together, and helped make some changes to make sure it worked right for HIS organization. He actually helped catch the issue with some of the map getting cut off, which is why we know now to hit that wrench icon! The Hub is a community where we are always learning from one another. If I step in to answer a question, I look forward to someone commenting on a better way to solve it, or even just a different one.
 
 Joe reported back:
+
 >  This is going to be an awesome start to Salesforce for our organization - interviews showed that a working "Venues" object was actually the Minimum Viable Product, and would have the effect of hooking some of the less technical people. 
 
 > Thanks to you, the final piece is in place, and I have something that will wow them.
