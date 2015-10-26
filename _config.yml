@@ -8,8 +8,8 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Salesforce for Humanists
-tagline: Computers were made by humans to make humanity better.
+title : cdcarter
+tagline: nonprofit tech, salesforce, and hard work.
 author :
   name : Christian Carter
   email : cdcarter@gmail.com
