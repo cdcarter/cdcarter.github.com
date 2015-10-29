@@ -24,7 +24,7 @@ The best way to get proficient at something is to just do it. The open source na
 ## 4. I read it!
 When it came down to it, the reason I was able to pass the multiple-choice section of the Platform Dev II exam is because over the course of installing, using, supporting, and contributing to the Nonprofit Starter Pack, I had to read a LOT of code. I had to read a LOT of code written by really smart people, and a LOT of code doing tricky things.
 
-I learned about async future methods from the Geocoding functionality. I learned about batch and schedule-able jobs from advanced donation rollups. I learned when to use a WFR instead of a trigger from the email preferences feature. I learned about custom labels from the settings pages, and I learned about Visualforce Remoting from the Manage Households page. Don't know about how those features work yet, or don't know the technology behind them yet? That's okay. Head to https://github.com/SalesforceFoundation/Cumulus and get reading!
+I learned about async future methods from the Geocoding functionality. I learned about batch and schedule-able jobs from advanced donation rollups. I learned when to use a WFR instead of a trigger from the email preferences feature. I learned about custom labels from the settings pages, and I learned about Visualforce Remoting from the Manage Households page. Want to start your Platform Dev journey but don't know about how those features work yet, or don't know the technology behind them yet? That's okay. Head to [Github](https://github.com/SalesforceFoundation/Cumulus) and get reading!
 
 I still don't understand all the code that's in the NPSP, but it sure helped me get to where I am today, and I can't wait to keep finding great ideas in that github repo.
 
