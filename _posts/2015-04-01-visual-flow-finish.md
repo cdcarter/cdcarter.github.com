@@ -2,8 +2,8 @@
 layout: post
 title: "Visual Workflow and the Finish Button"
 description: ""
-category: 
-tags: [visual-workflow]
+category: admin 
+tags: [visual-workflow,frosting]
 ---
 {% include JB/setup %}
 
