@@ -3,7 +3,7 @@ layout: post
 title: "Soft Validation Rules"
 description: ""
 category: admin 
-tags: [admin]
+tags: [admin,frosting]
 ---
 {% include JB/setup %}
 
