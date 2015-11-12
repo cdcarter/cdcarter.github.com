@@ -2,8 +2,8 @@
 layout: post
 title: "Mapping, A Power of Us Success!"
 description: "Or, your first Visualforce Page..."
-category: visualforce
-tags: []
+category: admin
+tags: [frosting,visualforce]
 ---
 {% include JB/setup %}
 
