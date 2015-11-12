@@ -3,7 +3,7 @@ layout: post
 title: "Getting Started with Salesforce1 for Non-Profits"
 description: "Page Layouts and Actions"
 category: admin
-tags: [patronmanager,mobile,adoption]
+tags: [patronmanager,mobile,adoption,frosting]
 ---
 {% include JB/setup %}
 
