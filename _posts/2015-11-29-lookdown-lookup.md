@@ -23,7 +23,7 @@ In the past, you could implement this with a simple Process Builder/Flow combo o
 
 Let's look at how we set up the current residency with DLRS. We'll assume that you've already installed DLRS and a remote site setting, and we're working with the following schema:
 
-![Contact, Residency, and Rentable Unit Schema](https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/schema-builder-~-salesforce---developer-edition.png)
+<img src="https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/schema-builder-~-salesforce---developer-edition.png" alt="Contact, Residency, and Rentable Unit Schema" width="100%"/>
 
 Here we have a junction object named Residency between Rentable Unit and Contact. Residency has a start date and end date, which calculate the "Current?" formula field. There's also a Lookdown Lookup from Contact to Residency named "Current Residency".
 
@@ -31,19 +31,19 @@ Here we have a junction object named Residency between Rentable Unit and Contact
 
 Now let's pop over to DLRS and start a new rollup summary
 
-![Rollup Setup](https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/lookup-rollup-summary-edit--new-lookup-rollup-summary-~-salesforce---developer-edition.png)
+<img src="https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/lookup-rollup-summary-edit--new-lookup-rollup-summary-~-salesforce---developer-edition.png" alt="Rollup Setup" width="70%"/>
 
 We give our rollup a name, set the parent and child objects, and set a relationship criteria that we only want to deal with Current residencies. This will keep the query more performant.
 
-![Rollup Details](https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/lookup-rollup-summary-edit--new-lookup-rollup-summary-~-salesforce---developer-edition-1.png)
+<img src="https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/lookup-rollup-summary-edit--new-lookup-rollup-summary-~-salesforce---developer-edition-1.png" alt="Rollup Details" width="70%"/>
 
 Then we move down to the rollup details. We want to aggregate the `Id` field of the child record into the lookdown field on Contact. Then, select the Aggregate Operation "First" and set the order by phrase to sort by Start Date, descending. That will get us the *most recent* "Current" residency (yes, there should never be more than one current residency, but it's still good to know what our code is doing if there is weird data).
 
-![Manage Child Trigger](https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/lookup-rollup-summary--set-current-residency-lookdown-~-salesforce---developer-edition.png)
+<img src="https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/lookup-rollup-summary--set-current-residency-lookdown-~-salesforce---developer-edition.png" alt="Manage Child Trigger" width="70%"/>
 
 Once saved, hit the "Manage Child Trigger" button and then the "deploy" button to put a trigger into your org. Note: DLRS also supports a Process Builder mode ([which I wrote about a while ago](http://cdcarter.github.io/2015/03/22/lookup-rollup/)) as well as a scheduled mode. If you see performance issues with the trigger, you may want to use scheduled mode.
 
-![Active checkbox](https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/lookup-rollup-summary--set-current-residency-lookdown-~-salesforce---developer-edition-1.png)
+<img src="https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/lookup-rollup-summary--set-current-residency-lookdown-~-salesforce---developer-edition-1.png" alt="Active checkbox" width="70%"/>
 
 After you've deployed the trigger, you need to activate the rollup record.
 
@@ -51,13 +51,13 @@ After you've deployed the trigger, you need to activate the rollup record.
 
 It's done, so let's go create a client and some residencies!
 
-![Client record](https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/contact--andy-akimbo-~-salesforce---developer-edition.png)
+<img src="https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/contact--andy-akimbo-~-salesforce---developer-edition.png" alt="Client Record" width="70%" />
 
-![Residencies](https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/contact--andy-akimbo-~-salesforce---developer-edition-2.png)
+<img src="https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/contact--andy-akimbo-~-salesforce---developer-edition-2.png" alt="Residencies" width="70%" />
 
 And once those are built, check out our client's current residency!
 
-![Rollup Worked](https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/contact--andy-akimbo-~-salesforce---developer-edition-1.png)
+<img src="https://dl.dropboxusercontent.com/spa/q8pc7mthv83x9i1/dlrs-lookdown-lookup/images/docs/dlrs-lookdown-lookup/contact--andy-akimbo-~-salesforce---developer-edition-1.png" alt="Rollup Worked" width="70%" />
 
 Now we can easily grab residency information for formula fields, list views, and more.
 
