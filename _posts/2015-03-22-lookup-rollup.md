@@ -3,7 +3,7 @@ layout: post
 title: "Ugh...lookup relationships..."
 description: "They aren't that bad!"
 category: 
-tags: [process-builder]
+tags: [process-builder,dlrs]
 ---
 {% include JB/setup %}
 
