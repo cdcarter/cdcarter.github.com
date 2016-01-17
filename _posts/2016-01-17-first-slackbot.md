@@ -101,7 +101,7 @@ global class SlackBot {
         a.fields.add(new SlackContext.SlackField('Amount Raised',String.valueOf(c.AmountWonOpportunities)));
         a.fields.add(new SlackContext.SlackField('Amount Remaining',String.valueOf(c.Amount_Remaining__c)));
         
-        ctx.resp.attachments.add(a);
+        ctx.response.attachments.add(a);
         
         ctx.setResponse(RestContext.response);
     }
