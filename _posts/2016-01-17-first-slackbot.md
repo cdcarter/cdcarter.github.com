@@ -89,7 +89,7 @@ global class SlackBot {
         ctx.checkToken(SLACK_TOKEN);
         ctx.response.response_type='ephemeral';
         
-        Campaign c = [SELECT Id,Name,NumberOfContacts,NumberOfWonOpportunities,AmountWonOpportunities 
+        Campaign c = [SELECT Id,Name,NumberOfContacts,NumberOfWonOpportunities,AmountWonOpportunities,Amount_Remaining__c 
                       FROM Campaign WHERE Slack_Channel__c =: ctx.request.channel_name];
         
         SlackContext.SlackAttachment a = new SlackContext.SlackAttachment();
@@ -99,7 +99,7 @@ global class SlackBot {
         a.fields.add(new SlackContext.SlackField('Donors',String.valueOf(c.NumberOfContacts)));
         a.fields.add(new SlackContext.SlackField('Donations',String.valueOf(c.NumberOfWonOpportunities)));
         a.fields.add(new SlackContext.SlackField('Amount Raised',String.valueOf(c.AmountWonOpportunities)));
-        a.fields.add(new SlackContext.SlackField('Amount Remaining',String.valueOf(c.NumberOfContacts)));
+        a.fields.add(new SlackContext.SlackField('Amount Remaining',String.valueOf(c.Amount_Remaining__c)));
         
         ctx.resp.attachments.add(a);
         
