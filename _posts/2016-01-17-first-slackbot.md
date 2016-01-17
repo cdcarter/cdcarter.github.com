@@ -17,8 +17,7 @@ I've created a framework you can use to start building your integration, [SlackS
 
 We're going to create a class called `SlackBot` to handle our Slack requests. SlackSFDCLib comes with a basic class to help us out:
 
-
-```
+<pre>
 @restResource(urlMapping='/slackbot/*')
 global class SlackBot {
 	static final string SLACK_TOKEN='PASTE_TOKEN_HERE';
@@ -35,8 +34,7 @@ global class SlackBot {
 		ctx.setResponse(RestContext.response);
 	}
 }
-
-```
+</pre>
 
 Now, if you're a non-profit, you may want to be able to ask Slack for updates on your current donations. 
 
@@ -44,13 +42,11 @@ Now, if you're a non-profit, you may want to be able to ask Slack for updates on
 
 In that case, we'd replace the "DO WORK HERE" block with:
 
-
-```
+<pre>
 String count = String.valueOf(([SELECT Count(Id) FROM Opportunity WHERE CreatedDate = TODAY][0]).get('expr0'));
 String base = '{0} new donations today!';
 ctx.response.text = String.format(base, new List<String> {count});
-    
-```
+</pre>
 
 Once your class is in working shape, follow Pat's instructions on adding the class to your Force.com site (and make sure the site guest user has permissions on all the objects and fields you are using!)
 
@@ -76,15 +72,14 @@ To make things even cooler, your `SlackContext` object contains a `SlackRequest`
 
 In my test org, I created a new external ID field named `Slack_Channel__c` on the Campaign SObject. When our slash command gets called, it can search for the Campaign that is related to the channel the command was invoked in:
 
-```
-Campaign c = [SELECT Id,Name,NumberOfContacts,NumberOfWonOpportunities,AmountWonOpportunities,Amount_Remaining__c FROM Campaign WHERE Slack_Channel__c =: ctx.request.channel_name];
-```
+<pre>
+Campaign c = [SELECT Id,Name,NumberOfContacts,NumberOfWonOpportunities,AmountWonOpportunities,Amount_Remaining__c 
+              FROM Campaign WHERE Slack_Channel__c =: ctx.request.channel_name];
+</pre>
 
 Here's our final class, all together:
 
-
-```
-
+<pre>
 global class SlackBot {
 	static final string SLACK_TOKEN='PASTE_TOKEN_HERE';
 
@@ -110,7 +105,6 @@ global class SlackBot {
 		ctx.setResponse(RestContext.response);
 	}
 }
-
-```
+</pre>
 
 It's that easy to get up and running with slash commands for your team, so what will you build?
