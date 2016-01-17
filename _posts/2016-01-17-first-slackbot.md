@@ -45,7 +45,7 @@ In that case, we'd replace the "DO WORK HERE" block with:
 <pre>
 String count = String.valueOf(([SELECT Count(Id) FROM Opportunity WHERE CreatedDate = TODAY][0]).get('expr0'));
 String base = '{0} new donations today!';
-ctx.response.text = String.format(base, new List<String> {count});
+ctx.response.text = String.format(base, new List&lt;String&gt; {count});
 </pre>
 
 Once your class is in working shape, follow Pat's instructions on adding the class to your Force.com site (and make sure the site guest user has permissions on all the objects and fields you are using!)
