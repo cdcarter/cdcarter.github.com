@@ -82,7 +82,9 @@ Campaign c = [SELECT Id,Name,NumberOfContacts,NumberOfWonOpportunities,AmountWon
 
 Here's our final class, all together:
 
+
 ```
+
 global class SlackBot {
 	static final string SLACK_TOKEN='PASTE_TOKEN_HERE';
 
