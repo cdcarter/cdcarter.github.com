@@ -81,16 +81,17 @@ Here's our final class, all together:
 
 <pre>
 global class SlackBot {
-	static final string SLACK_TOKEN='PASTE_TOKEN_HERE';
-
-	@httpPost
-	global static void doPost() {
-		SlackContext ctx = new SlackContext(RestContext.request);				
-		ctx.checkToken(SLACK_TOKEN);
-		ctx.response.response_type='ephemeral';
-
-		Campaign c = [SELECT Id,Name,NumberOfContacts,NumberOfWonOpportunities,AmountWonOpportunities FROM Campaign WHERE Slack_Channel__c =: ctx.request.channel_name];
-
+    static final string SLACK_TOKEN='PASTE_TOKEN_HERE';
+    
+    @httpPost
+    global static void doPost() {
+        SlackContext ctx = new SlackContext(RestContext.request);
+        ctx.checkToken(SLACK_TOKEN);
+        ctx.response.response_type='ephemeral';
+        
+        Campaign c = [SELECT Id,Name,NumberOfContacts,NumberOfWonOpportunities,AmountWonOpportunities 
+                      FROM Campaign WHERE Slack_Channel__c =: ctx.request.channel_name];
+        
         SlackContext.SlackAttachment a = new SlackContext.SlackAttachment();
         a.title = 'Annual Campaign Statistics';
         a.text = 'Here\'s how the campaign looks, boss!';
@@ -102,8 +103,8 @@ global class SlackBot {
         
         ctx.resp.attachments.add(a);
         
-		ctx.setResponse(RestContext.response);
-	}
+        ctx.setResponse(RestContext.response);
+    }
 }
 </pre>
 
