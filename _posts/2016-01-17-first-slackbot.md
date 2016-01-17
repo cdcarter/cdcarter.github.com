@@ -16,6 +16,7 @@ Slack offers a bunch of different ways to integrate your tools, but we're going 
 I've created a framework you can use to start building your integration, [SlackSFDClib](https://github.com/cdcarter/SlackSFDCLib), which will provide us with some simple wrappers over the Slack request and responses to make it easier to assemble things. Go ahead and install the unmanaged package (or just paste the `SlackContext` and `SlackContext_TEST` classes into your org) and then let's get started.
 
 We're going to create a class called `SlackBot` to handle our Slack requests. SlackSFDCLib comes with a basic class to help us out:
+
 ```
 @restResource(urlMapping='/slackbot/*')
 global class SlackBot {
@@ -37,9 +38,10 @@ global class SlackBot {
 
 Now, if you're a non-profit, you may want to be able to ask Slack for updates on your current donations. 
 
-<img src="http://i.imgur.com/bCQBxBc.png"/>
+<img src="http://i.imgur.com/bCQBxBc.png" width="70%"/>
 
 In that case, we'd replace the "DO WORK HERE" block with:
+
 ```
     String count = String.valueOf(([SELECT Count(Id) FROM Opportunity WHERE CreatedDate = TODAY][0]).get('expr0'));
     String base = '{0} new donations today!';
@@ -50,11 +52,11 @@ Once your class is in working shape, follow Pat's instructions on adding the cla
 
 Now, we need to head over to Slack to set up an integration. We're going to add the "Slash Command" integration, and configure a new command called `/donations`.
 
-<img src="http://i.imgur.com/rS7UxoD.png"/>
+<img src="http://i.imgur.com/rS7UxoD.png" width="70%"/>
 
 To configure it, simply insert the URL to your public site's REST API and give your bot a name. You can also add help text and upload a bot icon here!
 
-<img src="http://i.imgur.com/IJazdw6.png"/>
+<img src="http://i.imgur.com/IJazdw6.png" width="70%"/>
 
 Next, grab that token and paste it in to your `SlackBot` class in the `SLACK_TOKEN` definition.
 
@@ -62,7 +64,7 @@ Head on over to Slack and give your new command a try!
 
 `SlackSFDClib` also provides wrappers around the Slack Attachment object. With that, it becomes trivial to create beautiful responses.
 
-<img src="http://i.imgur.com/ABlST7H.png"/>
+<img src="http://i.imgur.com/ABlST7H.png" width="70%"/>
 
 Here, we created an attachment with a `title`, some `text`, a `color` and four `SlackFields`!
 
