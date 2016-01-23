@@ -31,5 +31,5 @@ Just a post-refresh, Beth
 And don't hold your breath!
 </pre>
 
-<img src="http://i.imgur.com/ow7q3oR.jpg"/>
-<img src="http://i.imgur.com/zlcJgFN.jpg"/>
+<img src="http://i.imgur.com/ow7q3oR.jpg" width="80%"/>
+<img src="http://i.imgur.com/zlcJgFN.jpg" width="80%"/>
