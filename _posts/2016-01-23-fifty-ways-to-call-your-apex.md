@@ -3,7 +3,7 @@ layout: post
 title: "Fifty Ways to Call Your Apex"
 description: "Experimenting with Sketchnotes"
 category: developer
-tags: [getting-started]
+tags: [sketchnotes,apex]
 ---
 {% include JB/setup %}
 
