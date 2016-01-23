@@ -26,7 +26,7 @@ There are many different types of exceptions that could happen in your org, whic
  - Missing Data
  - Contradictory Data
  
- If you need to brush up on your reporting basics, make sure to work through the [Reports and Dashboards Trailhead Module](https://developer.salesforce.com/trailhead/module/reports_dashboards), and then let's get started!
+If you need to brush up on your reporting basics, make sure to work through the [Reports and Dashboards Trailhead Module](https://developer.salesforce.com/trailhead/module/reports_dashboards), and then let's get started!
 
 ### Missing Data
 
