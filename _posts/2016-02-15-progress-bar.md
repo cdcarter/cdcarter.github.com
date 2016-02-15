@@ -20,7 +20,8 @@ IMAGE("/img/samples/color_green.gif","green",10,(((Cabins_Remaining__c)/Cabins__
 ```
 
 This draws a pretty basic progress bar:
-<img src="http://i.imgur.com/xKmkZMt.png"/>
+
+<img src="http://i.imgur.com/xKmkZMt.png" width="70%"/>
 
 ## How does it work?
 
@@ -51,7 +52,7 @@ IMAGE("/resource/slds_colors/neutral-2.png","neutral",10,((Cabins_Remaining__c/C
 
 Here, we've also changed from using red and green side by side to using a neutral color to fill out the rest of the bar.
 
-<img src="http://i.imgur.com/YUd3usK.png"/>
+<img src="http://i.imgur.com/YUd3usK.png"  width="70%"/>
 
 That looks NICE! Still, we can do one better. This next formula has a few nested if's to set the bar to red, orange, or green depending on how full this ship is.
 
@@ -67,8 +68,9 @@ IMAGE("/resource/slds_colors/neutral-2.png","",10,(((Cabins_Remaining__c)/Cabins
 TEXT((Reserved_Cabins__c/Cabins__c)*100) & "%"
 ```
 
-<img src="http://i.imgur.com/CWpz0SO.png"/>
-<img src="http://i.imgur.com/HUryMlV.png"/>
+<img src="http://i.imgur.com/CWpz0SO.png" width="70%"/>
+
+<img src="http://i.imgur.com/HUryMlV.png" width="70%"/>
 
 Isn't that pretty? And here, we're giving the user multiple visual indicators of the status. We see color, the bar size, and the printed percent. Plus, our alt text changes depending on the # of reservations, which makes this field still provide a quick presentation of status to users with screen readers too!
 
@@ -76,7 +78,7 @@ Isn't that pretty? And here, we're giving the user multiple visual indicators of
 
 I included all of the primary brand colors in the zip file of swatches
 
-<img src="http://i.imgur.com/rmIQEoF.png"/>
+<img src="http://i.imgur.com/rmIQEoF.png"  width="70%"/>
 
 So use the color best for the UI you're building!
 
@@ -98,7 +100,7 @@ In a former post [I showed off using dabuttonfactory buttons](http://cdcarter.gi
 IMAGE("http://dabuttonfactory.com/button.png?t=Major+Donor&f=Open+Sans-Bold&ts=14&tc=fff&hp=16&vp=8&c=5&bgt=unicolored&bgc=0070d2&bs=1&bc=569","MajorDonor")
 ```
 
-<img src="http://i.imgur.com/9KNwUqX.png"/>
+<img src="http://i.imgur.com/9KNwUqX.png"  width="70%"/>
 
 <small>Yea, the ship's a donor. Sure...</small>
 
