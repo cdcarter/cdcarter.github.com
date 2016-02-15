@@ -21,7 +21,7 @@ IMAGE("/img/samples/color_green.gif","green",10,(((Cabins_Remaining__c)/Cabins__
 
 This draws a pretty basic progress bar:
 
-<img src="http://i.imgur.com/xKmkZMt.png" width="70%"/>
+<img src="http://i.imgur.com/xKmkZMt.png" width="500px" height="auto"/>
 
 ## How does it work?
 
@@ -40,7 +40,7 @@ Those sample red and green colors are pretty stark. This isn't super beautiful, 
 
 But thankfully, when Salesforce released the Lightning Design System, they created a great collection of [colors to use in Salesforce](http://www.lightningdesignsystem.com/design/color). These colors look appropriate in Aloha and Lightning, so we should use those. I've created a zip of color swatches [downloadable here](http://cdcarter.github.io/assets/slds_colors.zip) which you can upload as a static resource:
 
-<img src="http://i.imgur.com/6DjjmVx.png" width="70%"/>
+<img src="http://i.imgur.com/6DjjmVx.png" width="500px" height="auto"/>
 
 Now, let's update our formula to use the new static resource images.
 
@@ -52,7 +52,7 @@ IMAGE("/resource/slds_colors/neutral-2.png","neutral",10,((Cabins_Remaining__c/C
 
 Here, we've also changed from using red and green side by side to using a neutral color to fill out the rest of the bar.
 
-<img src="http://i.imgur.com/YUd3usK.png"  width="70%"/>
+<img src="http://i.imgur.com/YUd3usK.png"  width="500px" height="auto"/>
 
 That looks NICE! Still, we can do one better. This next formula has a few nested if's to set the bar to red, orange, or green depending on how full this ship is.
 
@@ -68,9 +68,9 @@ IMAGE("/resource/slds_colors/neutral-2.png","",10,(((Cabins_Remaining__c)/Cabins
 TEXT((Reserved_Cabins__c/Cabins__c)*100) & "%"
 ```
 
-<img src="http://i.imgur.com/CWpz0SO.png" width="70%"/>
+<img src="http://i.imgur.com/CWpz0SO.png" width="500px" height="auto"/>
 
-<img src="http://i.imgur.com/HUryMlV.png" width="70%"/>
+<img src="http://i.imgur.com/HUryMlV.png" width="500px" height="auto"/>
 
 Isn't that pretty? And here, we're giving the user multiple visual indicators of the status. We see color, the bar size, and the printed percent. Plus, our alt text changes depending on the # of reservations, which makes this field still provide a quick presentation of status to users with screen readers too!
 
