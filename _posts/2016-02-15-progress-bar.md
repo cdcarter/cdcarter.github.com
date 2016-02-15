@@ -78,7 +78,7 @@ Isn't that pretty? And here, we're giving the user multiple visual indicators of
 
 I included all of the primary brand colors in the zip file of swatches
 
-<img src="http://i.imgur.com/rmIQEoF.png"  width="70%"/>
+<img src="http://i.imgur.com/rmIQEoF.png"  height="300px" width="auto"/>
 
 So use the color best for the UI you're building!
 
@@ -100,7 +100,7 @@ In a former post [I showed off using dabuttonfactory buttons](http://cdcarter.gi
 IMAGE("http://dabuttonfactory.com/button.png?t=Major+Donor&f=Open+Sans-Bold&ts=14&tc=fff&hp=16&vp=8&c=5&bgt=unicolored&bgc=0070d2&bs=1&bc=569","MajorDonor")
 ```
 
-<img src="http://i.imgur.com/9KNwUqX.png"  width="70%"/>
+<img src="http://i.imgur.com/9KNwUqX.png"  height="300px" width="auto"/>
 
 <small>Yea, the ship's a donor. Sure...</small>
 
