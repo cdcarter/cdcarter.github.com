@@ -86,6 +86,7 @@ So use the color best for the UI you're building!
 
 Since that wasn't cool enough, today I whipped up two other ideas:
 
+<a id="emoji"/>
 ### Emoji in Formula
 
 I'm not kidding. It works.
