@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a Better Progress Bar (nd some more frosting)"
+title: "Building a Better Progress Bar (and some more frosting)"
 description: ""
 category: admin
 tags: [frosting, formula]
