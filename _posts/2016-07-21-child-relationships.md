@@ -17,7 +17,7 @@ Since Wayfinder clients are just Contact records in Salesforce, the data model h
 
 As an App Builder, there’s no doubt that you’re familiar with the named parent relationship. No? I bet you are!
 
-A simple `Story__c` custom object holds the story, and it has a lookup relationship to the contact that submitted it. The lookup field has the API name `Contact__c`, which means there is a **named parent relationship **called `Contact__r`. Wayfinder uses the built in mail merge button to export the stories to their CMS for publishing, which means the Wayfinder admin had to build a formula on the Story object to pull over the Contact’s name for publication. That field looks like this:
+A simple `Story__c` custom object holds the story, and it has a lookup relationship to the contact that submitted it. The lookup field has the API name `Contact__c`, which means there is a **named parent relationship** called `Contact__r`. Wayfinder uses the built in mail merge button to export the stories to their CMS for publishing, which means the Wayfinder admin had to build a formula on the Story object to pull over the Contact’s name for publication. That field looks like this:
 
 ```
 Contact__r.FirstName & " “ & Contact__r.LastName
