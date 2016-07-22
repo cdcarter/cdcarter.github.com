@@ -17,7 +17,7 @@ Let’s look at how the Wayfinder Foundation’s communications team uses Salesf
 
 Since Wayfinder clients are just Contact records in Salesforce, the data model here is pretty simple: 
 
-<img src="http://i.imgur.com/j0mRBX3.png" width="70%"/>
+<img src="http://i.imgur.com/j0mRBX3.png" />
 
 ### The Parent Relationship
 
@@ -35,7 +35,7 @@ Yep, that’s the named parent relationship, you use it every time you pull a fi
 
 Well, when the Wayfinder App Builder was creating the lookup relationship, she had to set a child relationship name, so maybe that gives us a hint:
 
-<img src="http://i.imgur.com/ZZpOlqD.png" width="70%"/>
+<img src="http://i.imgur.com/ZZpOlqD.png" />
 
 The child relationship name is, by default, the plural name for the object. So, Story has a parent relationship named `Contact__r`, and Contact has a child relationship named `Stories__r`. You can find all of an object’s child relationships by describing it in [Workbench](https://workbench.developerforce.com).
 
@@ -51,7 +51,7 @@ For a long time, the child relationship was relegated to users of SOQL and Apex 
 
 At Wayfinder, the communications department made a normal request: when a contact leaves the program and is flagged "no re-entry" by the programs staff, any stories that haven’t been published should be pulled from the publication pool. The admin built a quick process to manage this. When you create an “Update Records” action, you get asked to select the record to update, and then, finally, a list of child relationships!
 
-<img src="http://i.imgur.com/SDP6Ter.png"/>
+<img src="http://i.imgur.com/SDP6Ter.png" width="45%"/>
 
 The process then updates the status on all unpublished stories to "Not for publication" - and the communications director at Wayfinder loves Salesforce even a little bit more now.
 
