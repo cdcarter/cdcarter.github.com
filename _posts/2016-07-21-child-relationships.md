@@ -11,6 +11,7 @@ tags: [wayfinder, process-builder, visualforce, frosting]
 <meta name="twitter:site" content="@cdcarter" />
 <meta name="twitter:title" content="The F*** Is the Child Relationship" />
 <meta name="twitter:description" content="What's on the otherside of a Lookup relationship in Salesforce?" />
+<meta name="twitter:image" content="https://cdcarter.github.io/assets/images/r.png" />
 
 Let’s look at how the Wayfinder Foundation’s communications team uses Salesforce to track stories submitted by their constituents for the weekly e-newsletter. As clients work through their programs, they are encouraged to submit stories about what they’re working on, what’s going on in their neighborhood, or how Wayfinder impacted their life. This newsletter is send to all current and former participants - Wayfinder serves as a community for the shared experience of being a refugee in America, recent or established. 
 
