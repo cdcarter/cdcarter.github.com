@@ -1,5 +1,4 @@
 ---
-published: false
 layout: post
 category: appbuilder
 title: "Secrets of the Release Notes: Summer '16"
