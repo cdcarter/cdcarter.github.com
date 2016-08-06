@@ -12,6 +12,8 @@ published: true
 
 {% include JB/setup %}
 
+> *Estimated Reading Time: 6 minutes*
+
 
 This week, I went back through the Summer '16 release notes, as we're coming up on the "two month anniversary" of the release. Now, that's not a date I mark in my calendar, but I thought it might be worth going back to re-read the release notes now that I'm used to all the new shiny features that I got excited about in May when they first came out. 
 
