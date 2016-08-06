@@ -10,6 +10,9 @@ tags:
   - secrets
 ---
 
+{% include JB/setup %}
+
+
 This week, I went back through the Summer '16 release notes, as we're coming up on the "two month anniversary" of the release. Now, that's not a date I mark in my calendar, but I thought it might be worth going back to re-read the release notes now that I'm used to all the new shiny features that I got excited about in May when they first came out. 
 
 It turns out, there was a lot that I missed. So, I'm trying something I always try, which is shamelessly steal from my genius friends at [PatronTechnology](http://patrontechnology.com), [Michelle Paul](http://twitter.com/fuzzydinosaur) and [Ally Klein](http://twitter.com/nyalli). Every year, at the PatronManager Community Meeting, they run a session titled "Secrets of the Release Notes", and they run through all the things you might have missed in their product over the last year. 
