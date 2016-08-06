@@ -10,6 +10,12 @@ tags:
 published: true
 ---
 
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@cdcarter" />
+<meta name="twitter:title" content="Secrets of the Release Notes: Summer '16" />
+<meta name="twitter:description" content="Digging into the top 10 overlooked features in Salesforce Summer '16" />
+<meta name="twitter:image" content="https://www.salesforce.com/content/dam/blogs/us/May2015/fireworks.png" />
+
 {% include JB/setup %}
 
 > *Estimated Reading Time: 6 minutes*
