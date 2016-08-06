@@ -1,12 +1,13 @@
 ---
 layout: post
 category: appbuilder
-title: "Secrets of the Release Notes: Summer '16"
+title: 'Secrets of the Release Notes: Summer ''16'
 tags:
   - admin
   - consultant
   - releasenotes
   - secrets
+published: true
 ---
 
 {% include JB/setup %}
@@ -24,8 +25,6 @@ I started up a [Trello board](https://trello.com/b/HZ6xCfd0/secrets-of-the-relea
 - features that I was ignoring for too long, and got good!
 
 So, without any further ramblings, here are the top ten...
-
-# Secrets of the Release Notes: Summer '16
 
 ## BIG DEAL ALERT! How'd I Miss These?
 
@@ -118,4 +117,4 @@ The Data Import Wizard -- another feature that I've just historically ignored be
 
 But dataloader.io has limits for free users, they're a business after all! If you need something completely free, in my opinion, with this feature the Data Import Wizard has actually become viable for regular use. 
 
-Plus, it uses the Bulk API which is a huge win. 
+Plus, it uses the Bulk API which is a huge win.
