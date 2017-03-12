@@ -25,7 +25,17 @@ or the build status:
 
 Shields are useful, because you just drop an image link in in your README and they render. Wait a second, can't we drop an image link in a formula field and see something cool? We've done that before with [Da Button Factory](https://dabuttonfactory.com), let's try it with a shield.
 
-At first, I thought let's try a shield as the record header!
+The URL pattern for a shield starts simple:
+
+      https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg
+
+and after reading about the [url parametes](http://shields.io/#styles) that Shields.io supports I came up with a version that looks at home and on brand in the Lightning Experience.
+
+      https://img.shields.io/badge/NAME-STATUS-NULL.svg?style=flat-suare&colorB=0070d2
+
+At first, I thought let's try a shield as the record header! By making a field the first field in the compact layout, it gets made big and into a header.
+
+At Bigger Boat, I have to track my time in a time sheet, where I say how many hours I spent on each project and what I did. Let's take a look at making the Time Log object (which used to have an ugly auto-number) into something cuter.
 
 <img src="http://i.imgur.com/3FfJP9r.png"/>
 
