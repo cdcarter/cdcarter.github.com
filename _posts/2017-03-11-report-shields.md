@@ -18,18 +18,16 @@ published: true
 In the tradition of awesome formula image tricks, I wanted to introduce [shields.io](http://shields.io/), an awesome service you maybe have seen used on Github repositories.
 
 It might express a version:
-
-[![homebrew](https://img.shields.io/homebrew/v/cake.svg)]()
+<img src="https://img.shields.io/homebrew/v/cake.svg"/>
 
 or the build status: 
-
-[![Shippable](https://img.shields.io/shippable/5444c5ecb904a4b21567b0ff.svg)]()
+<img src="https://img.shields.io/shippable/5444c5ecb904a4b21567b0ff.svg"/>
 
 Shields are useful, because you just drop an image link in in your README and they render. Wait a second, can't we drop an image link in a formula field and see something cool? We've done that before with [Da Button Factory](https://dabuttonfactory.com), let's try it with a shield.
 
 At first, I thought let's try a shield as the record header!
 
-[![header](http://i.imgur.com/3FfJP9r.png)]()
+<img src="http://i.imgur.com/3FfJP9r.png"/>
 
 It looks nice. Hell, Matt Bertuzzi, author of [Lightning Sales Ops](https://www.amazon.com/dp/B06XMR93HC) wrote:
 
@@ -59,8 +57,7 @@ But as we were looking at [themes throughout the app](http://www.designkit.org/m
 I love this technique, but is "This Account's Opportunities" really the best way to show what you're linking off to? 
 
 ## Introducing Report Shields
-
-[![shield](http://i.imgur.com/xydtt23.png)]()
+<img src="http://i.imgur.com/xydtt23.png"/>
 
 Instead of just linking to a report, how about we use a button in order to make it clearer that this is something you can click on and get more details? In fact, what if our app established that a shield means you're going to a place where you see more detail?
 
@@ -73,8 +70,7 @@ We all know that [Lightning Components are data aware](http://www.tahoedreamin.c
 I built a simple rollup on Account for how many hours had been billed. The criteria for this rollup must EXACTLY match the criteria for your report's grand total, but that's okay.
 
 I then built a detail report that would show the hours breakdown for that account with a grand total:
-
-[![report](http://i.imgur.com/8mXaBdn.png)]()
+<img src="http://i.imgur.com/8mXaBdn.png"/>
 
 Notice how we add a filter but leave the value blank, as described in Beth's post! Then, we create our Report Shield formula field:
 
@@ -87,9 +83,8 @@ Notice how we add a filter but leave the value blank, as described in Beth's pos
           "link to account report"),"_self")
           
 Boom, we now have a report button that also can tell us a little bit more about what we're gonna see when we click through.
+<img src="http://i.imgur.com/1vkNsJw.png"/>
 
-[![shields](http://i.imgur.com/1vkNsJw.png)]()
-
-[![animation](http://i.imgur.com/hR3l7kY.gif)]()
+<img src="http://i.imgur.com/hR3l7kY.gif"/>
 
 Damn, that's smooth. And now my users know that any shield with a summary will take them to a report or list view with a lot more detail. We'll be adding a lot more of these, I think.
