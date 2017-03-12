@@ -70,7 +70,7 @@ We all know that [Lightning Components are data aware](http://www.tahoedreamin.c
 I built a simple rollup on Account for how many hours had been billed. The criteria for this rollup must EXACTLY match the criteria for your report's grand total, but that's okay.
 
 I then built a detail report that would show the hours breakdown for that account with a grand total:
-<img src="http://i.imgur.com/8mXaBdn.png"/>
+<img src="http://i.imgur.com/8mXaBdn.png" width="70%"/>
 
 Notice how we add a filter but leave the value blank, as described in Beth's post! Then, we create our Report Shield formula field:
 
@@ -85,6 +85,6 @@ Notice how we add a filter but leave the value blank, as described in Beth's pos
 Boom, we now have a report button that also can tell us a little bit more about what we're gonna see when we click through.
 <img src="http://i.imgur.com/1vkNsJw.png"/>
 
-<img src="http://i.imgur.com/hR3l7kY.gif"/>
+<img src="http://i.imgur.com/hR3l7kY.gif" width="70%"/>
 
 Damn, that's smooth. And now my users know that any shield with a summary will take them to a report or list view with a lot more detail. We'll be adding a lot more of these, I think.
