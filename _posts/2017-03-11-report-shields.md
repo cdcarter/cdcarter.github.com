@@ -52,7 +52,7 @@ I hopped on a screenshare with [Jason Lett](https://twitter.com/jasonblett), a P
 
 We talked for a while, and he made sure to ask me important questions about the context in which these shields would be seen. Ultimately, a shield could work well as a record handle, but you'd have to be careful where you use it. For time entries, we considered the front portion could be a well formatted date. Meh.
 
-But as we were looking at [themes throughout the app](http://www.designkit.org/methods/5), there were a lot of user stories where we wanted to link out to a filtered report. This is a long time Salesforce "best of the rest" feature, that in Spring 17 is officially supported. [Beth Bresines](https://twitter.com/bethbrains) wrote up a fantastic post about how to build a report link in Lighting and how to make it work in classic too [on the Bigger Boat Blog](http://biggerboatconsulting.com/supporting-report-filter-url-hacks-in-lightning-and-classic/).
+But as we were looking at [themes throughout the app](http://www.designkit.org/methods/5), there were a lot of user stories where we wanted to link out to a filtered report. This is a long time Salesforce "best of the rest" feature, that in Spring 17 is officially supported. [Beth Breisnes](https://twitter.com/bethbrains) wrote up a fantastic post about how to build a report link in Lighting [on the Bigger Boat Blog](http://biggerboatconsulting.com/supporting-report-filter-url-hacks-in-lightning-and-classic/). Her post includes the deep details on how to make a formula link work in both Classic and Lighting, so check it for details if you need to support both environments.
 
 I love this technique, but is "This Account's Opportunities" really the best way to show what you're linking off to? 
 
