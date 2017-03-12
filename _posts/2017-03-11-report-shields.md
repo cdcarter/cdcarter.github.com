@@ -31,7 +31,7 @@ The URL pattern for a shield starts simple:
 
 and after reading about the [url parametes](http://shields.io/#styles) that Shields.io supports I came up with a version that looks at home and on brand in the Lightning Experience.
 
-      https://img.shields.io/badge/NAME-STATUS-NULL.svg?style=flat-suare&colorB=0070d2
+      https://img.shields.io/badge/NAME-STATUS-NULL.svg?style=flat-square&colorB=0070d2
 
 At first, I thought let's try a shield as the record header! By making a field the first field in the compact layout, it gets made big and into a header.
 
