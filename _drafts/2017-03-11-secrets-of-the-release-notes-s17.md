@@ -17,6 +17,8 @@ published: false
 <meta name="twitter:image" content="https://c1.sfdcstatic.com/content/dam/blogs/us/thumbnails/get-ready-for-the-spring-17-release/spring17logo.jpg" />
 
 {% include JB/setup %}
+
+
 [Secrets of the Release Notes](https://cdcarter.github.io/appbuilder/2016/08/05/secrets-of-the-release-notes) is back for the Spring 17 release, because there are some hidden gems in here. Spring 17 was a release that pretty much everyone was excited about. Huge jumps forward in terms of what you can do in Lightning pages out of the box, the beast that is picklist administration is finally tamed, and lightning components got a lot of love on the developer side. But you've heard and read about those already!
 
 Doing "Secrets of the Release Notes" isn't just an excuse for me to write my blog post two months after everyone else without looking lazy. Instead, I like to take a look at the new release two months in. I go through the notes for a who-knows-how-manyth-time and I start bookmarking and commenting and noting. Have I used this feature yet? Do I understand it? Will I use it any time soon? Am I ready for my certification maintenance exams? 
