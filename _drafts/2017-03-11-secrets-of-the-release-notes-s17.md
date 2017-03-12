@@ -1,55 +1,56 @@
-Doing secrets of the release notes isn't just an excuse for me to write my blog post two months after everyone else but not look lazy. It's 
 
-I like to highlight:
+[Secrets of the Release Notes](https://cdcarter.github.io/appbuilder/2016/08/05/secrets-of-the-release-notes) is back for the Spring 17 release, because there are some hidden gems in here. Spring 17 was a release that pretty much everyone was excited about. Huge jumps forward in terms of what you can do in Lightning pages out of the box, the beast that is picklist administration is finally tamed, and lightning components got a lot of love on the developer side. But you've heard and read about those already!
 
-- new design patterns trhat talk to us about the feature of the app
-- those little changes that mean a lot
-- fgeatures that amde it into the release notes late and I don't hear being talked about much
-- and new features that are *free* with your grant that used to cost money
+Doing "Secrets of the Release Notes" isn't just an excuse for me to write my blog post two months after everyone else without looking lazy. Instead, I like to take a look at the new release two months in. I go through the notes for a who-knows-how-manyth-time and I start bookmarking and commenting and noting. Have I used this feature yet? Do I understand it? Will I use it any time soon? Am I ready for my certification maintenance exams? 
 
+When I take that look, there are always some things that stand out to me. For whatever reason, things it feels like I "missed" on the first pass through. Now, sometimes these really are late breaking features that weren't in the initial release notes, but others are just small little gems that I didn't notice or comprehend because I was busy drooling over Console-style navigation in Lightning.
 
-https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_sales_features_core_campaigns_hierarchy_lightning.htm#rn_sales_features_core_campaigns_hierarchy_lightning
-this is our first real nice master detail view in the app, actually. and...it's sexy.
+## Free features!
 
-https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_sales_leads_view_converted.htm#rn_sales_leads_view_converted
-holy mother of REPLACING STUPID PERMS WITH WELL NAMED ONES HELL YEAAAA. more of this. who was the pm on this? lemme smooch ya.
+### Lightning for Gmail / Lightning for Outlook
 
-https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_sales_lightning_for_gmail_improved_side_panel.htm#rn_sales_lightning_for_gmail_improved_side_panel
-Okay, I wouldn't call this new feature a "secret" but like literally what the fuck. if you're using Outlook365 or Gmail for email and your reps aren't using the plugin go fuck yourselgf
-https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_forcecom_lfo_lfg.htm
-the secret might be it's available for platform users now
+<a href="https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_sales_lightning_for_gmail_improved_side_panel.htm#rn_sales_lightning_for_gmail_improved_side_panel"><img src="https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/release_notes/images/lfg-pane.png" width="70%"/></a>
 
-Nobody has made a compelling Einstein pitch to me and I don't think another 60 minute webinar with four slides and a Journey Builder is gonna help me.
+Some of my favorite features in a new release are those that bring features to all customers that used to be paid add-ons or require ISV support. Over the past few releases, Lightning for Gmail and Lightning for Outlook have brought fantastic email app plugins that bring Salesforce into your inbox. They haven't really been a secret, but nobody has been drooling over them the way you really should. If you use Gmail or Outlook for email, get your reps this plugin.
 
-https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_security_identity_control_oauth_app_policies.htm
-Calling gorav Seth
+<i>...and there is a little bit of a secret in these notes - not only has Lightning for Gmail gotten better and better, as of this release it's <a href="
+https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_forcecom_lfo_lfg.htm">included for Platform/Force.com license types now too</a> meaning all your users can use the awesome plugins.</i>
 
-https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_forcecom_lab_dynamic_picklists.htm#rn_forcecom_lab_dynamic_picklists
-Oh this is the sexiest featrue that nobody has implemented yet. I wanna give you a contrived demo but I"m lazy! where's andy...
+## Cheap Communities for Great Good
 
-https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_files_folders.htm#rn_files_folders
-Lightning got Folders, which replace Libraries. Cool. Content is pretty much dead and we just have Files now. That's good!
+Force.com Sites are a fantastic way to expose data from your Salesforce instance to the public internet with Visualforce pages. Included free for most customers, and leveraged by popular apps like PatronManager and Volunteers for Salesforce, they're a big part of my toolbox. However, they haven't gotten any new features in a long time, and you can't use Lightning Components or even Lightning Out in them. 
 
-https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_lightning_case_management.htm
-That simple case feature gets a notch. I have a long standing hate for Case for licensing concerns and don't support nonprofits using it openly. But I recently fell in love with the EA&C license and internal cases make things liek this kinda nice. don't mock.
+Jodie Miners tipped me off to a neat trick in her [Setting up Knowledge in Communities](https://tdd.instawiki.com/display/SF/Setting+up+Knowledge+on+Communities) tutorial. If you or your client buy just a single communities user or license block (i.e. the cheapest option for your contract) - you can make that Lightning base, super powerful Napili community available to the general public. That's right. Drag and drop Community Builder, an AppExchange of Lightning Components, and deep integration, all available for a single Community user.
 
-https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_lightning_apps_in_communities.htm
-You still can't put an app or component in a force.com site. it's a bitch. but you can finally do it in a public facing community. To do this, you need a single community login. that's not expensive. you get all of community builder for public pages and your custom apps too. public knowledge base if you have a single knowlsge author license. h/t jodie miners.  gurl write a book abt this.
+Even better, in this release [you can finally make custom Lightning Apps available for guest users in a community](https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_lightning_apps_in_communities.htm) meaning your entire custom Lightning App bundle could be accessible in your public community. 
 
-https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_files_apex_customize_downloads.htm
-tracking downloads of content versions for internal tracking, without buying sf shield
+## The App Builder's Field Guide to Spring 17
 
-https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_fsc.htm?edition=&impact=
-somewhere deep inside salesforce another team is developing a household model. they're developing relationships. They're rebuilding things the NPSP has already but also trying new things. it's neat to watch. I wonder if they know we exist. They get flashy marketing, but they can only release three times a year and the NPSP releases every other week. suck a disk, financial services cloud.
-admittedly their app is a lot more individual focused than like we just gotta enter gifts. it's neat
+### Content is Dead, Long Live Files (Content)
 
-https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_fsc_alerts.htm?edition=&impact=
-FSC alerts, these are COOL AND SMART AND CLEVER
+<a href="https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_files_folders.htm#rn_files_folders
+"><img src="https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/release_notes/images/rn_files_folders.png" width="70%"/></a>
 
-https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_health_filter_logic.htm
-Go look at CampaighnTools my lovers
+First, they came for Content, and replaced it with Files (built on top of Content). Files is simpler than Content, more powerful than Documents, and looks great in Lightning. But what about Libraries? Content Libraries were a powerful way to organize all your Content. Well, if Content is Files, then Libraries would be Folders. So Shawna brought us Folders.
 
-https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_api_bulk.htm#rn_api_bulk_queries
-BULK API gets SOQL relationships aka our world is good.
+### Bulk API Powerup
 
+The Bulk API is the preferred way for a large integration to interact with Salesforce. Trust me, I'm Certified (tm). But it had a very painful limitation. Though you could submit a SOQL query for what records you wanted to retrieve, you couldn't get anything from relationships or related fields. Even as much as grabbing a user's email address instead of ID for a bulk export meant multiple steps and merging files.
 
+[NO MORE](https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_api_bulk.htm#rn_api_bulk_queries)! The Bulk API got some query powerups, including the ability to use relationships, and you couldn't be happier.
+
+## The Financial Services Cloud
+
+Ok, I have a weird soft spot for the [Financial Services Cloud release notes](https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_fsc.htm?edition=&impact=) and the team behind it. They're designing a fantastic account and relationship model that has been very interesting to watch grow. I'd love to write it up sometime, their concept of households is very elegant.
+
+I like to wonder about that team, deep inside Salesforce. Do they look at the NPSP? They sure seem to have learned some data lessons from us. They get such flashy marketing in the formal release notes, which is very cool! But they can only release three times a year, and the NPSP team is pushing out new features every other week. I'll take  the tradeoff. 
+
+### Alerts
+
+They got a neat new feature in FSC that allows [external integrations to add Alerts to a client record](https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_fsc_alerts.htm?edition=&impact=) by adding records via the API. The alert will show up when a user pulls up several possible views of the client, and they can act on it then, or schedule a reminder. This is a very clever way to allow another system to integrate with Salesforce without disrupting data.
+
+## Conclusion
+
+Spring 17 was a whirlwind release for the Lightning Experience. I feel so empowered in Lightning App Builder. But there are some less talked about features that I am sure you're gonna want to check out. Try out Salesforce for Gmail, [check out how amazing OAuth management got](https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_security_identity_control_oauth_app_policies.htm) (paging Gorav Seth), and make sure you have moved your teams over to Files!
+
+Happy S17.
