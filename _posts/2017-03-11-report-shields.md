@@ -58,9 +58,13 @@ and it's easy to implement:
         
 That said, I'm just not sold on this as the best place to use shields in my Salesforce app. I know, I know, I have a solution in search of a problem.
 
-I hopped on a screenshare with [Jason Lett](https://twitter.com/jasonblett), a Product Manager at CrowdCompass, and demo'd what I'd built. We talked about how this shield could be hard to read in a list view. After all, the two sections will be different sizes! 
+I hopped on a screenshare with [Jason Lett](https://twitter.com/jasonblett), a Product Manager at CrowdCompass, and demo'd what I'd built. 
 
-We talked for a while, and he made sure to ask me important questions about the context in which these shields would be seen. Ultimately, a shield could work well as a record handle, but you'd have to be careful where you use it. For time entries, we considered the front portion could be a well formatted date. Meh.
+We talked for a while, and he made sure to ask me important questions about the context in which these shields would be seen. He had me open up a few more views and it became pretty apparent that the first section of the shield really shouldn't vary too much in length if you'll see it in a list view.
+
+<img src="http://i.imgur.com/bCxNsQN.png" width="70%"/>
+
+It's just messy and distracting. We talked about different ways that a shield could still be a timelog record header. What if the first section show's the date? That's always the same length! Jason reminded me that the cool thing about the shield in an open source README file is that it shows a summary of the data it links through to. LIGHTBULB.
 
 But as we were looking at [themes throughout the app](http://www.designkit.org/methods/5), there were a lot of user stories where we wanted to link out to a filtered report. This is a long time Salesforce "best of the rest" feature, that in Spring 17 is officially supported. [Beth Breisnes](https://twitter.com/bethbrains) wrote up a fantastic post about how to build a report link in Lighting [on the Bigger Boat Blog](http://biggerboatconsulting.com/supporting-report-filter-url-hacks-in-lightning-and-classic/). Her post includes the deep details on how to make a formula link work in both Classic and Lighting, so check it for details if you need to support both environments.
 
