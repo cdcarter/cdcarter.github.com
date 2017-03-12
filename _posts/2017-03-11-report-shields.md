@@ -91,3 +91,5 @@ Boom, we now have a report button that also can tell us a little bit more about 
 [![shields](http://i.imgur.com/1vkNsJw.png)]()
 
 [![animation](http://i.imgur.com/hR3l7kY.gif)]()
+
+Damn, that's smooth. And now my users know that any shield with a summary will take them to a report or list view with a lot more detail. We'll be adding a lot more of these, I think.
