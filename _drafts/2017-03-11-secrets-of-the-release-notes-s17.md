@@ -21,9 +21,9 @@ published: false
 
 [Secrets of the Release Notes](https://cdcarter.github.io/appbuilder/2016/08/05/secrets-of-the-release-notes) is back for the Spring 17 release, because there are some hidden gems in here. Spring 17 was a release that pretty much everyone was excited about. Huge jumps forward in terms of what you can do in Lightning pages out of the box, the beast that is picklist administration is finally tamed, and lightning components got a lot of love on the developer side. But you've heard and read about those already!
 
-Doing "Secrets of the Release Notes" isn't just an excuse for me to write my blog post two months after everyone else without looking lazy. Instead, I like to take a look at the new release two months in. I go through the notes for a who-knows-how-manyth-time and I start bookmarking and commenting and noting. Have I used this feature yet? Do I understand it? Will I use it any time soon? Am I ready for my certification maintenance exams? 
+Doing "Secrets of the Release Notes" isn't just an excuse for me to write my blog post two months after everyone else without looking lazy. Instead, I like to take a look at the new release again two months in. I go through the notes for a who-knows-how-manyth-time and I start bookmarking and commenting and noting. Have I used this feature yet? Do I understand it? Will I use it any time soon? Am I ready for my certification maintenance exams? 
 
-When I take that look, there are always some things that stand out to me. For whatever reason, things it feels like I "missed" on the first pass through. Now, sometimes these really are late breaking features that weren't in the initial release notes, but others are just small little gems that I didn't notice or comprehend because I was busy drooling over Console-style navigation in Lightning.
+When I take that look, there are always some things that stand out to me. For whatever reason, there are things it feels like I "missed" on the first pass through. Now, sometimes these really are late breaking features that weren't in the initial release notes, but others are just small little gems that I didn't notice or comprehend because I was busy drooling over Console-style navigation in Lightning.
 
 ## Free features!
 
@@ -55,7 +55,7 @@ First, they came for Content, and replaced it with Files (built on top of Conten
 
 ### Bulk API Powerup
 
-The Bulk API is the preferred way for a large integration to interact with Salesforce. Trust me, I'm Certified (tm). But it had a very painful limitation. Though you could submit a SOQL query for what records you wanted to retrieve, you couldn't get anything from relationships or related fields. Even as much as grabbing a user's email address instead of ID for a bulk export meant multiple steps and merging files.
+The Bulk API is the preferred way for a large integration to interact with Salesforce. Trust me, I'm Certified (tm). But it had a very painful limitation. Though you could submit a SOQL query for what records you wanted to retrieve, you couldn't get anything from relationships or related fields. Even as much as grabbing a Lead's owner's email address instead of ID for a bulk export meant multiple steps and merging files.
 
 [NO MORE](https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_api_bulk.htm#rn_api_bulk_queries)! The Bulk API got some query powerups, including the ability to use relationships, and I couldn't be happier.
 
@@ -67,7 +67,9 @@ I like to wonder about that team, deep inside Salesforce. Do they look at the NP
 
 ### Alerts
 
-They got a neat new feature in FSC that allows [external integrations to add Alerts to a client record](https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_fsc_alerts.htm?edition=&impact=) by adding records via the API. The alert will show up when a user pulls up several possible views of the client, and they can act on it then, or schedule a reminder. This is a very clever way to allow another system to integrate with Salesforce without disrupting data.
+They got a neat new feature in FSC that allows [external integrations to add Alerts to a client record](https://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_fsc_alerts.htm?edition=&impact=) by adding records via the API. The alert will show up when a user pulls up the client's account, contact, or household, and they can act on it then, or schedule a reminder. 
+
+This isn't a super complicated concept, but it's cleanly implemented by a really smart design team.
 
 ## Conclusion
 
