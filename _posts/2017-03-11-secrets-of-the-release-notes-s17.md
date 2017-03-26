@@ -7,7 +7,7 @@ tags:
   - consultant
   - releasenotes
   - secrets
-published: false
+published: true
 ---
 
 <meta name="twitter:card" content="summary" />
