@@ -14,13 +14,13 @@ In 1977, Christopher Alexander and the Center for Environmental Structure in Ber
 
 The patterns are thus both prescriptive (they offer one solution to a specific problem) but also composable. One of the members of the Center created a small porch at the front of the house. 
 
-* **PRIVATE TERRACE ON THE STREET (140)
-* SUNNY PLACE (161)
-* OUTDOOR ROOM (163)
-* SIX FOOT BALCONY (167)
-* COLUMNS AT THE CORNERS (212)
-* FRONT DOOR BENCH (242)
-* RAISED FLOWERS (245)**
+* **PRIVATE TERRACE ON THE STREET (140)**
+* **SUNNY PLACE (161)**
+* **OUTDOOR ROOM (163)**
+* **SIX FOOT BALCONY (167)**
+* **COLUMNS AT THE CORNERS (212)**
+* **FRONT DOOR BENCH (242)**
+* **RAISED FLOWERS (245)**
 
 The designer selected a set of patterns that resonated with him, and working through from more creational/structural to more embellishments. It's almost a beautiful little MVP and iterations ;).
 
