@@ -24,11 +24,13 @@ The patterns are thus both prescriptive (they offer one solution to a specific p
 
 The designer selected a set of patterns that resonated with him, and working through from more creational/structural to more embellishments. It's almost a beautiful little MVP and iterations ;).
 
-Over time, the professional software development community started to explore a concept of design patterns, inspired by Alexander's work. However, in practice, they are mostly patterns without a language. They are implementation focused. They are often about how the code will do something, or adding a layer of abstraction for consistency. Patterns like **factories** and **builders** are what come to mind. This work is valuable, but a designer couldn't assemble a list of them into a sequence in such a way that a builder could create something out of them. Yes, some of Alexander's patterns explain in detail *how* to do something. But they're still strung together with other larger picture ideas about what you're trying to make and how you're going to get there.
+Over time, the professional software development community started to explore a concept of design patterns, inspired by Alexander's work. However, in practice, they are mostly patterns without a language. They are implementation focused. They are often about how the code will do something, or adding a layer of abstraction for consistency. Patterns like **factories** and **builders** are what come to mind. In the Salesforce world, we see Enterprise Application Patterns like **Selector**, **Domain Layer**, and **Service Layer**.
+
+This work is valuable, but these are patterns for a team of software engineers to work together to build something. These are patterns that a team uses to design the inner mechanics of an application, and somewhat presupposes that the requirements are either unequivocably correct, or just don't matter at all! Indeed, there is a legitimate level of design in the way a complex code base achieves whatever it needs to achieve, regardless of that goal. But the original goal of A Pattern Language talks about a higher level design. The design that the "user" or dweller interacts with on an everyday basis -- not the details of the build of the engineered floor. How does the dweller relate to their dwelling? What are the patterns we can give them so that they can design a dwelling that works for them?
 
 We need a pattern language not just for the architecture of the code or the servers that make it possible, but also for the actual design of end user applications. The Lightning Platform empowered business analysts and citizen developers to build applications for their organizations. Many of these are powerful, and many of them would benefit from using peer vetted patterns that can allow them to create an impactful application experience that will be maintainable.
 
-By assembling (well thought out and documented) patterns from sections such as:
+By assembling (well thought out and documented) patterns from categories like:
 
 * data model (custom objects and fields)
 * automation and business logic
