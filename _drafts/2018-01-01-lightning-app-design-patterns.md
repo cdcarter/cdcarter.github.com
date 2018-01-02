@@ -30,8 +30,11 @@ This work is valuable, but these are patterns for a team of software engineers t
 
 We need a pattern language not just for the architecture of the code or the servers that make it possible, but also for the actual design of end user applications. The Lightning Platform empowered business analysts and citizen developers to build applications for their organizations. Many of these are powerful, and many of them would benefit from using peer vetted patterns that can allow them to create an impactful application experience that will be maintainable.
 
-By assembling (well thought out and documented) patterns from categories like:
+Alexander organizes his pattern language in sequence, "moving from larger to smaller, from ones which create structures, to those which then embellish them, to those which embellish the embellishments". The first patterns are for a region, then a city or town, then subcommunities, then neighborhoods, then individual dwellings, then the makeup and decor of those dwellings.
 
+You can imagine a pattern language for Lighting. By moving through patterns in groups like:
+
+* platforms and/or clouds
 * data model (custom objects and fields)
 * automation and business logic
 * application experience and navigation
