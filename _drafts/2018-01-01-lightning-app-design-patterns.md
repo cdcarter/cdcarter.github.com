@@ -42,6 +42,8 @@ You can imagine a pattern language for Lighting. By moving through patterns in g
 
 and using the rapid application development toolkit provided by the Lightning Platform, a business user and a cictizen developer should be able to work together in tandem to prototype, validate, and quickly implement an application.
 
+!()[https://i.imgur.com/MeCQ6WW.jpg]
+
 Over the years, I've been writing about patterns for [frosting][1], [reporting][2], [data modeling][4], and even for [what parts of Salesforce to build your app on, and what to avoid][3]. As I see more and more admins and developers attempt to transition their orgs and business processes to the Lightning Experience, I see a need for a more holistic pattern language for Lightning Application design. A year ago, at Tahoe Dreamin' I presented on a number of patterns that were available then, about two years into the Lightning Experience. With another year's worth of building, learning, and improvements to the platform, I think its time to start collecting those patterns into a language.
 
 [1]: http://cdcarter.github.io/admin/2015/11/12/frosting
