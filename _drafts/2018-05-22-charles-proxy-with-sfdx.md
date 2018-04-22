@@ -72,3 +72,8 @@ export NODE_TLS_REJECT_UNAUTHORIZED=0
 Once I do that, I can run my request and see the full details in Charles! Awesome
 <img src="https://i.imgur.com/gsxLFkT.png"/>
 
+Once I drill in, I see that to get the performance data in my own call, I need to set the `Sforce-Call-Options` header and include the `perfOption` key. This header is [documented](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/headers_calloptions.htm) but the `perfOption` key specifically is not. However, I was able to successfully add the perfOption header to my Python client.
+
+<img src="https://i.imgur.com/FbKCvqV.png"/>
+
+I'm excited to get at this data, and I'm even more excited to be able to use Charles Proxy to look at everything the SFDX CLI is doing.
