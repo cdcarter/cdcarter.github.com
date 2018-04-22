@@ -70,5 +70,5 @@ export NODE_TLS_REJECT_UNAUTHORIZED=0
 ```
 
 Once I do that, I can run my request and see the full details in Charles! Awesome
-<img src="https://imgur.com/a/yg729ks.jpg"/>
+<img src="https://i.imgur.com/gsxLFkT.png"/>
 
